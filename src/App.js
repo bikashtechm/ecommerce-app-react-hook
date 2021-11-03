@@ -1,11 +1,8 @@
 import "./App.css";
+import Login from "./Login";
 
 function App() {
-  return (
-    <div>
-      <button className="btn btn-primary">Save</button>
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
